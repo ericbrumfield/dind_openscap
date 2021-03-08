@@ -1,0 +1,3 @@
+This container image is pieced together to allow for running oscap-docker cli from inside a containerized environment such as an AWS CodeBuild instance.  Based on Centos 7, this image can be used and extended for setting up containerized build environments, allowing you to compile, containerize apps and scan the finished image as part of your CI/CD pipelines.
+
+Docker in Docker (dind) here is inspired and setup was taken from: https://github.com/jpetazzo/dind
